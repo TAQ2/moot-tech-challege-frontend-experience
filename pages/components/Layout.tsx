@@ -196,7 +196,7 @@ const FullLayout: FunctionComponent<LayoutProps> = ({
         </aside>
         <div
           className={classNames(
-            'shrink-0 ease-in-out duration-300 absolute right-0 h-screen overflow-clip left-14 flex flex-col'
+            'shrink-0 ease-in-out duration-300 absolute right-0 h-screen overflow-y-scroll left-14 flex flex-col'
           )}
         >
           <div className="flex-grow h-12 overflow-none">{children}</div>

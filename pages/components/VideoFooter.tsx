@@ -118,7 +118,7 @@ export const VideoFooter: React.FC<{
             </div>
           </div>
         </div>
-        <div id="videoFooterMenu" className="flex space-x-2 absolute">
+        <div id="videoFooterMenu" className="flex space-x-2 fixed">
           <div className="flex bg-base-100 items-center rounded-full border border-base-200 py-2 px-3 h-15 bottom-2 transition-all ease-in">
             {showCall ? (
               <div className=" flex space-x-0.5 pr-0.5">
